@@ -1,4 +1,13 @@
         <link rel="stylesheet" href="/css/user_profile.css">
-        <h1>
-            Codeial / Profile Page
-        </h1>
+        <h2>
+            iConnect | <%= user.name %>
+            
+        </h2>
+
+        
+        <p><%= user.name %> </p>
+        <p> <%= user.email %> </p>
+       
+        <form method="post" action="/users/logout">
+            <input type = "submit" value="Logout">
+        </form>
