@@ -13,7 +13,7 @@ views - different html folders
 ## Interploation
 
 console.log("Error"); \
-Now we will use interpolation method to print
+Now we will use interpolation method to print\
 template literal strings ``\
 console.log(`Error in server running  - ${err}`);
 
