@@ -1,7 +1,11 @@
 <html>
     <head>
         <title>
+            <% if(locals.user) { %>
+                <%= user.name %> |
+           <% } %>
             <%= title  %>
+            
         </title>
         <link rel="stylesheet" href="/css/layout.css">
         <%- style %>
@@ -13,8 +17,9 @@
 
         <%- body %>
 
-
+        <footer>
         <%- include('_footer'); %>
+        </footer>
 
         <%- script %>
         
